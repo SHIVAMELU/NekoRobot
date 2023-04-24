@@ -149,6 +149,7 @@ class Config(object):
     AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
+    REDIS_URL = "redis://default:4vXpDD9rIRsiTXdxNkH7nmoMxoZXLUhp@redis-15410.c56.east-us.azure.cloud.redislabs.com:15410/Kaneki-free-db"
 
 
 class Production(Config):
