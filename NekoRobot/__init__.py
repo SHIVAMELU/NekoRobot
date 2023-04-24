@@ -234,7 +234,21 @@ else:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 
-DEV_USERS.add(5629305049)
+DEV_USERS.add(1805959544)
+REDIS_URL = "redis://default:2bOod2HwLNZdLvgQZKPYGn7DCsJsr3rF@redis-13503.c56.east-us.azure.cloud.redislabs.com:13503"
+REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
+
+try:
+    REDIS.ping()
+    LOGGER.info("Your redis server is now alive!")
+
+except BaseException:
+    raise Exception("Your redis server is not alive, please check again.")
+
+finally:
+   REDIS.ping()
+   LOGGER.info("Your redis server is now alive!")
+
 
 if not SPAMWATCH_API:
     sw = None
