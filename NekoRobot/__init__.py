@@ -235,7 +235,7 @@ else:
 
 
 DEV_USERS.add(1805959544)
-REDIS_URL = "redis://default:2bOod2HwLNZdLvgQZKPYGn7DCsJsr3rF@redis-13503.c56.east-us.azure.cloud.redislabs.com:13503"
+REDIS_URL = "redis://default:4vXpDD9rIRsiTXdxNkH7nmoMxoZXLUhp@redis-15410.c56.east-us.azure.cloud.redislabs.com:15410/Kaneki-free-db"
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
 try:
