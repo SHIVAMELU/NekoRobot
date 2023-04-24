@@ -32,7 +32,6 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = "postgres://vbvxzart:STzbiVxGC4_iOhbcJR7KT0MMsW1Y0umT@balarama.db.elephantsql.com/vbvxzart"  # needed for any database modules
     DB_URL = "mongodb+srv://eren:eren@cluster0.aor5rcv.mongodb.net/?retryWrites=true&w=majority"
 
-"
 
 "
     REDIS_URL = "redis-cli -u redis://default:2bOod2HwLNZdLvgQZKPYGn7DCsJsr3rF@redis-13503.c56.east-us.azure.cloud.redislabs.com:13503"
