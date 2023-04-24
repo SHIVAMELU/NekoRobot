@@ -33,7 +33,7 @@ import aiohttp
 import httpx
 import spamwatch
 import telegram.ext as tg
-import StrictRedis
+from redis import StrictRedis
 from aiohttp import ClientSession
 from httpx import AsyncClient, Timeout
 from pyrogram import Client
