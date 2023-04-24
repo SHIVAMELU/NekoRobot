@@ -102,6 +102,7 @@ if ENV:
     )  # Info Pic (use True[Value] If You Want To Show In /info.)
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
+    REDIS_URL = os.environ.get("REDIS_URL", None)
     ARQ_API_URL = os.environ.get("ARQ_API_URL", None)
     ARQ_API_KEY = os.environ.get("ARQ_API_KEY", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "")  # Bot Username
