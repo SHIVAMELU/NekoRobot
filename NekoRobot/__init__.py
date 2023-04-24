@@ -33,6 +33,7 @@ import aiohttp
 import httpx
 import spamwatch
 import telegram.ext as tg
+from redis import StrictRedis
 from aiohttp import ClientSession
 from httpx import AsyncClient, Timeout
 from pyrogram import Client
@@ -42,7 +43,6 @@ from Python_ARQ import ARQ
 from telegraph import Telegraph
 from telethon import TelegramClient
 from telethon.sessions import MemorySession, StringSession
-from redis import StrictRedis
 
 StartTime = time.time()
 
