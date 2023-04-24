@@ -31,7 +31,7 @@ class Config(object):
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://vbvxzart:STzbiVxGC4_iOhbcJR7KT0MMsW1Y0umT@balarama.db.elephantsql.com/vbvxzart"  # needed for any database modules
     DB_URL = "mongodb+srv://eren:eren@cluster0.aor5rcv.mongodb.net/?retryWrites=true&w=majority"
-    REDIS_URL = "redis://default:4vXpDD9rIRsiTXdxNkH7nmoMxoZXLUhp@redis-15410.c56.east-us.azure.cloud.redislabs.com:15410/Kaneki-free-db"
+    REDIS_URL = "redis://default:8Bk2aMlF738feQsAldo83D5ma63oplsr@redis-12755.c52.us-east-1-4.ec2.cloud.redislabs.com:12755"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
