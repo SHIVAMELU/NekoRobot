@@ -32,6 +32,7 @@ import time
 import aiohttp
 import httpx
 import spamwatch
+from redis import StrictRedis
 import telegram.ext as tg
 from aiohttp import ClientSession
 from httpx import AsyncClient, Timeout
